@@ -11,4 +11,6 @@ Day 4 is a rock paper scissors game against the computer
 
 Day 5 is a random password generator
 
+Day 6 is a challenge from the site Reeborg's World and is solving the maze
+
 I have written the code but all projects and code ideas for each day are from the Udemy course https://www.udemy.com/course/100-days-of-code/
