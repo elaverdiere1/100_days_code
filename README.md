@@ -15,4 +15,6 @@ Day 6 is a challenge from the site Reeborg's World and is solving the maze
 
 Day 7 is a hangman game
 
+Day 8 is a caesar cipher
+
 I have written the code but all projects and code ideas for each day are from the Udemy course https://www.udemy.com/course/100-days-of-code/
