@@ -17,4 +17,6 @@ Day 7 is a hangman game
 
 Day 8 is a caesar cipher
 
+Day 9 is a blind auction designed to run in repl.it as it uses a clear function
+
 I have written the code but all projects and code ideas for each day are from the Udemy course https://www.udemy.com/course/100-days-of-code/
