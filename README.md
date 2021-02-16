@@ -25,4 +25,6 @@ Day 11 is a blackjack game
 
 Day 12 is a number guessing game
 
+Day 13 is it hihger or lower game
+
 I have written the code but all projects and code ideas for each day are from the Udemy course https://www.udemy.com/course/100-days-of-code/
