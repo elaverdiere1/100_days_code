@@ -33,4 +33,6 @@ Day 16 is a true/false quiz game questions can be changed by adjusting the data 
 
 Day 17 created a program that makes a replica of a Damien Hirst dot painting using colors from an image
 
+Day 18 used the turtle graphics library to create a visual turtle race
+
 I have written the code but all projects and code ideas for each day are from the Udemy course https://www.udemy.com/course/100-days-of-code/
