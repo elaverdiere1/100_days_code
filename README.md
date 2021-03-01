@@ -35,4 +35,6 @@ Day 17 created a program that makes a replica of a Damien Hirst dot painting usi
 
 Day 18 used the turtle graphics library to create a visual turtle race
 
+Day 19 and 20 created the snake game
+
 I have written the code but all projects and code ideas for each day are from the Udemy course https://www.udemy.com/course/100-days-of-code/
