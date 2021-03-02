@@ -37,4 +37,6 @@ Day 18 used the turtle graphics library to create a visual turtle race
 
 Day 19 and 20 created the snake game
 
+Day 21 created a version of the game pong
+
 I have written the code but all projects and code ideas for each day are from the Udemy course https://www.udemy.com/course/100-days-of-code/
