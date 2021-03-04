@@ -39,4 +39,6 @@ Day 19 and 20 created the snake game
 
 Day 21 created a version of the game pong
 
+Day 22 created a version of frogger
+
 I have written the code but all projects and code ideas for each day are from the Udemy course https://www.udemy.com/course/100-days-of-code/
