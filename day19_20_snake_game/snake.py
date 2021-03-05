@@ -13,7 +13,6 @@ class Snake:
             position = (0 - (x * 20), 0)
             self.add_segment(position)
 
-
     def move_snake(self):
         for snakes in range(len(self.snake_list) - 1, 0, -1):
             new_x = self.snake_list[snakes - 1].xcor()
@@ -46,3 +45,9 @@ class Snake:
         snake.penup()
         snake.setposition(position)
         self.snake_list.append(snake)
+
+    def reset(self):
+        for snakes in self.snake_list:
+            snakes.goto(1000, 1000)
+        self.snake_list.clear()
+        self.create_snake()
