@@ -41,4 +41,6 @@ Day 21 created a version of the game pong
 
 Day 22 created a version of frogger
 
+Day 23 created a state name quiz game
+
 I have written the code but all projects and code ideas for each day are from the Udemy course https://www.udemy.com/course/100-days-of-code/
