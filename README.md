@@ -47,4 +47,6 @@ Day 24 created a way to convert a word to NATO alphabet
 
 Day 25 used Tkinter to make a GUI based miles to kilometer converter
 
+Day 26 created a pomodoro style work timer
+
 I have written the code but all projects and code ideas for each day are from the Udemy course https://www.udemy.com/course/100-days-of-code/
