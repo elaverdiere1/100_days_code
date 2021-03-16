@@ -66,7 +66,7 @@ email_label.grid(column=0, row=2)
 
 email_input = Entry(width=35, )
 email_input.grid(column=1, columnspan=2, row=2)
-email_input.insert(0, 'laverdiere.eric@gmail.com')
+email_input.insert(0, 'default@default.com')
 
 pass_label = Label(text='Password:')
 pass_label.grid(column=0, row=3)
