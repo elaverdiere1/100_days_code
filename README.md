@@ -49,4 +49,6 @@ Day 25 used Tkinter to make a GUI based miles to kilometer converter
 
 Day 26 created a pomodoro style work timer
 
+Day 28 Created a program to generate and save passwords to a text file so they can be managed while creating complex and secure passwords
+
 I have written the code but all projects and code ideas for each day are from the Udemy course https://www.udemy.com/course/100-days-of-code/
