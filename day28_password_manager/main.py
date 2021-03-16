@@ -28,21 +28,48 @@ def generate_password():
 # Saving the information to a text file
 
 def add_to_file():
-    if len(website_input.get()) == 0 or len(email_input.get()) == 0 or len(pass_input.get()) == 0:
+
+    website = website_input.get()
+    email = email_input.get()
+    password = pass_input.get()
+    new_data = {
+        website: {
+            'email': email,
+            'password': password
+        }
+    }
+
+    if len(website) == 0 or len(email) == 0 or len(password) == 0:
         messagebox.showinfo(title='Oops', message='Please do not leave any fields empty')
     else:
-        is_ok = messagebox.askokcancel(title=website_input.get(), message=f'These are the details entered:\n'
-                                                                          f'Email: {email_input.get()}\n'
-                                                                          f'Password: {pass_input.get()}\n'
-                                                                          f'Is it ok to save?')
-
-        if is_ok:
-            f = open('data.txt', 'a')
-            f.write(f'{website_input.get()} | {email_input.get()} | {pass_input.get()}\n')
-            f.close()
+        try:
+            with open('data.json', 'r') as data_file:
+                data = json.load(data_file)
+        except FileNotFoundError:
+            with open('data.json', 'w') as data_file:
+                json.dump(new_data, data_file, indent=4)
+        else:
+            data.update(new_data)
+            with open('data.json', 'w') as data_file:
+                json.dump(data, data_file, indent=4)
+        finally:
             website_input.delete(0, END)
             pass_input.delete(0, END)
-
+            
+def search():
+    try:
+        with open('data.json', 'r') as data_file:
+            data = json.load(data_file)
+    except FileNotFoundError:
+        messagebox.showinfo(title='Error', message='No Data File Found.')
+    else:
+        if website_input.get() in data:
+            email = data[website_input.get()]["email"]
+            password = data[website_input.get()]["password"]
+            messagebox.showinfo(title=website_input.get(), message=f'Email: {email}\n'
+                                                                   f'Password: {password}')
+        else:
+            messagebox.showinfo(title='Error', message=f'No details for {website_input.get()} exists.')
 # UI setup
 
 window = Tk()
@@ -57,8 +84,8 @@ canvas.grid(column=1, row=0)
 website_label = Label(text='Website:')
 website_label.grid(column=0, row=1)
 
-website_input = Entry(width=35)
-website_input.grid(column=1, columnspan=2, row=1)
+website_input = Entry(width=21)
+website_input.grid(column=1, row=1)
 website_input.focus()
 
 email_label = Label(text='Email/Username:')
@@ -79,5 +106,8 @@ pass_button.grid(column=2, row=3)
 
 add_button = Button(text='Add', width=36, command=add_to_file)
 add_button.grid(column=1, columnspan=2, row=4)
+
+search_button = Button(text='Search', width=13, command=search)
+search_button.grid(column=2, row=1)
 
 window.mainloop()
