@@ -51,4 +51,6 @@ Day 26 created a pomodoro style work timer
 
 Day 28 Created a program to generate and save passwords to a text file so they can be managed while creating complex and secure passwords
 
+Day 29 Created a program to run flash cards using data from a csv, the program saves which cards you got wrong for further study
+
 I have written the code but all projects and code ideas for each day are from the Udemy course https://www.udemy.com/course/100-days-of-code/
