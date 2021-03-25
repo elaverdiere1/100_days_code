@@ -53,4 +53,6 @@ Day 28 Created a program to generate and save passwords to a text file so they c
 
 Day 30 Created a program to run flash cards using data from a csv, the program saves which cards you got wrong for further study
 
+Day 33 Created a quiz game similar to day 16 but with new questions using an API and a GUI presentation with buttons for a user
+
 I have written the code but all projects and code ideas for each day are from the Udemy course https://www.udemy.com/course/100-days-of-code/
