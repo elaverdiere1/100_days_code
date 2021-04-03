@@ -57,4 +57,6 @@ Day 33 Created a quiz game similar to day 16 but with new questions using an API
 
 Day 34 and 35 worked with API keys and twilio to send messages from python code to my phone. Putting in some base code from day 35 but removed the API keys and phone numbers.
 
+Day 36 posint the code for the habit tracker using pixela and the steps for creation to each post on the created graph.
+
 I have written the code but all projects and code ideas for each day are from the Udemy course https://www.udemy.com/course/100-days-of-code/
